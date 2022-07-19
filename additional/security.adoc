@@ -1,0 +1,76 @@
+---
+sidebar: sidebar 
+permalink: additional/security.html 
+keywords:  
+summary:  
+---
+= Sécurité
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+L'API REST d'Astra Control offre plusieurs couches de sécurité.
+
+
+NOTE: Tout le trafic réseau HTTP est protégé par le protocole TLS (transport Layer Security).
+
+
+
+== Jetons API Astra
+
+Pour utiliser l'API REST Astra Control, vous devez fournir un jeton d'API à chaque demande du `Authorization` en-tête de demande. Notez ce qui suit :
+
+* Vous pouvez générer un jeton API à partir de l'interface utilisateur Web Astra.
+* Un jeton n'expire jamais après sa création.
+* Vous pouvez révoquer un jeton à tout moment à partir de l'interface utilisateur Web Astra.
+
+
+Voir link:../get-started/get_api_token.html["Obtenir un jeton API"] pour en savoir plus.
+
+
+
+== Révocation d'un jeton d'accès API
+
+Vous pouvez révoquer un jeton API dans l'interface Web Astra lorsqu'il n'est plus nécessaire.
+
+Vous avez besoin d'un compte pour le service Astra. Vous devez également identifier les jetons que vous souhaitez révoquer.
+
+Une fois le token révoqué, il est immédiatement et définitivement inutilisable.
+
+.Étapes
+. Connectez-vous à Astra à l'aide de vos identifiants de compte.
++
+Accédez au site suivant pour le service Astra Control : https://astra.netapp.io/["https://astra.netapp.io"^]
+
+. Cliquez sur l'icône figure en haut à droite de la page et sélectionnez *API Access*.
+. Sélectionnez le ou les jetons que vous souhaitez révoquer.
+. Dans la liste déroulante *actions*, cliquez sur *révoquer jetons*.
+
+
+
+
+== Rôles et contrôle d'accès
+
+Chaque utilisateur Astra est affecté à un seul rôle qui détermine les actions qui peuvent être exécutées. Les rôles sont classés dans une hiérarchie comme décrit dans le tableau ci-dessous.
+
+[cols="15,85"]
+|===
+| Rôle | Description 
+
+
+| Propriétaire | Dispose de toutes les autorisations du rôle d'administrateur et peut également supprimer des comptes Astra. 
+
+
+| Admin | Dispose de toutes les autorisations du rôle membre et peut également inviter des utilisateurs à rejoindre un compte. 
+
+
+| Membre | Peut gérer entièrement l'application Astra et les ressources de calcul. 
+
+
+| Visualiseur | Limité à l'affichage des ressources uniquement. 
+|===

@@ -1,0 +1,10 @@
+---
+section: additional
+title: Autres considérations RELATIVES À L'UTILISATION DE REST
+entries:
+- title: Sécurité
+  url: "/additional/security.html"
+- title: Utilisation des collections
+  url: "/additional/working_with_collections.html"
+- title: Diagnostics
+  url: "/additional/diagnostics_support.html"

@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: get-started/before_get_started.html 
+keywords:  
+summary:  
+---
+= Avant de commencer
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez vous préparer rapidement à utiliser l'API REST Astra Control en passant en revue les étapes décrites ci-dessous.
+
+Assurez-vous de passer en revue link:../rest-core/rest_web_services.html["Implémentation DE l'APPLICATION REST de cœur"] Pour plus d'informations sur les concepts DE REPOS et les détails concernant la conception de l'API REST Astra Control.
+
+Vous aurez besoin d'informations d'identification Astra pour vous connecter à l'interface utilisateur Web Astra et générer un jeton API. Avec Astra Control Center, vous gérez ces informations d'identification localement. Avec le service de contrôle Astra, les informations d'identification du compte sont conservées par le service *Auth0*.
+
+Vous devez connaître les ressources d'information supplémentaires, comme le suggère le link:../information/additional_resources.html["Ressources supplémentaires"].
