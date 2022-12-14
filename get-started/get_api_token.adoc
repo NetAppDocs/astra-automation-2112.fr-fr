@@ -19,8 +19,10 @@ Vous devez disposer d'un jeton d'accès API pour utiliser l'API REST Astra Contr
 
 NOTE: Les jetons de l'API Astra n'expirent jamais, mais vous pouvez révoquer un jeton lorsqu'il n'est plus nécessaire.
 
+.Avant de commencer
 Vous avez besoin d'informations d'identification pour un compte Astra.
 
+.Description de la tâche
 Cette tâche génère un jeton API sur l'interface Web Astra. Vous devez également récupérer l'ID de compte qui est également nécessaire pour effectuer un appel API.
 
 .Étapes
@@ -34,4 +36,5 @@ Accédez au site suivant pour le service Astra Control : https://astra.netapp.io
 . Copiez et enregistrez l'ID de compte disponible sur la même page.
 
 
+.Une fois que vous avez terminé
 Lorsque vous accédez à l'API REST Astra Control via Curl ou un langage de programmation, vous devez inclure le jeton de support d'API dans le `Authorization` en-tête de demande. Pour révoquer le token, reportez-vous à la section link:../additional/security.html["Sécurité"].

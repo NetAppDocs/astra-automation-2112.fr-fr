@@ -38,8 +38,10 @@ Voir link:../get-started/get_api_token.html["Obtenir un jeton API"] pour en savo
 
 Vous pouvez révoquer un jeton API dans l'interface Web Astra lorsqu'il n'est plus nécessaire.
 
+.Avant de commencer
 Vous avez besoin d'un compte pour le service Astra. Vous devez également identifier les jetons que vous souhaitez révoquer.
 
+.Description de la tâche
 Une fois le token révoqué, il est immédiatement et définitivement inutilisable.
 
 .Étapes
