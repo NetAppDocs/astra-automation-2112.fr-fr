@@ -130,7 +130,7 @@ Les paramètres de requête suivants peuvent être utilisés avec les collection
 Les codes d'état HTTP utilisés par l'API REST Astra Control sont décrits ci-dessous.
 
 
-NOTE: L'API REST Astra Control utilise également la norme *Détails du problème pour les API HTTP*. Voir link:diagnostics_support.html["Diagnostics et support"] pour en savoir plus.
+NOTE: L'API REST Astra Control utilise également la norme *Détails du problème pour les API HTTP*. Voir link:../additional/diagnostics_support.html["Diagnostics et support"] pour en savoir plus.
 
 [cols="15,20,65"]
 |===
