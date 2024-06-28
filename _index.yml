@@ -1,0 +1,86 @@
+---
+indexpage:
+  title: Documentation Astra Control Automation 21.12
+  summary: Astra Control est un logiciel NetApp qui permet de gérer le cycle de vie
+    des données pour vos applications Kubernetes. Deux modèles de déploiement sont
+    disponibles selon votre environnement. Astra Control Center et Astra Control Service
+    partagent la même API REST pour une version donnée. Vous pouvez utiliser l'API
+    et d'autres technologies d'automatisation associées pour gérer vos déploiements
+    Astra Control.
+  keywords: astra, astra control, astra control center, astra control service, data
+    management, rest, rest api, kubernetes, deployment, 2112
+  lead: Astra Control est un logiciel NetApp qui permet de gérer le cycle de vie des
+    données pour vos applications Kubernetes. Deux modèles de déploiement sont disponibles
+    selon votre environnement. Astra Control Center et Astra Control Service partagent
+    la même API REST pour une version donnée. Vous pouvez utiliser l'API et d'autres
+    technologies d'automatisation associées pour gérer vos déploiements Astra Control.
+  tiles:
+  - title: Commencez
+    links:
+    - title: Introduction
+      summary: Découvrez l'API REST d'Astra.
+      url: "/intro/introduction.html"
+    - title: Avant de commencer
+      summary: Préparez-vous à utiliser l'API REST.
+      url: "/get-started/before_get_started.html"
+    - title: Obtenir un jeton API
+      summary: Générez un jeton pour accéder à l'API.
+      url: "/get-started/get_api_token.html"
+    - title: Bonjour tout le monde
+      summary: Testez l'accès de base à l'API REST.
+      url: "/get-started/hello_world.html"
+  - title: Implémentation REST
+    links:
+    - title: Services web REST
+      summary: Comprendre les fondations technologiques des services Web REST.
+      url: "/rest-core/rest_web_services.html"
+    - title: Détails HTTP
+      summary: Vérifiez les détails de l'implémentation HTTP.
+      url: "/rest-core/http_details.html"
+    - title: Format d'URL
+      summary: Comprendre le format d'URL et la façon dont il est composé de plusieurs
+        valeurs.
+      url: "/rest-core/url_format.html"
+  - title: Autres considérations
+    links:
+    - title: Sécurité
+      summary: Explorez la sécurité fournie avec l'API REST.
+      url: "/additional/security.html"
+    - title: Utilisation des collections
+      summary: Utilisez les paramètres de requête pour accéder aux collections de
+        ressources.
+      url: "/additional/working_with_collections.html"
+    - title: Diagnostics et support
+      summary: Préparez-vous à prendre en charge les applications Astra.
+      url: "/additional/diagnostics_support.html"
+  - title: Ressources
+    links:
+    - title: Ressources et collections
+      summary: Familiarisez-vous avec la conception des ressources DE REPOS et des
+        collections.
+      url: "/rest-core/resources_collections.html"
+    - title: Ressources de l'API REST d'Astra Control
+      summary: Passez en revue une présentation concise des diverses ressources de
+        l'Astra.
+      url: "/endpoints/resources.html"
+  - title: Flux de travail
+    links:
+    - title: Préparation
+      summary: Préparez-vous à utiliser les workflows Astra.
+      url: "/get-started/prepare_to_use_workflows.html"
+    - title: Workflows d'infrastructure
+      summary: Les workflows nécessaires à la maintenance de l'infrastructure d'exécution
+        Astra,
+      url: "/workflows_infra/workflows_infra_before.html"
+    - title: Flux de travail de gestion
+      summary: Workflows courants utilisés pour gérer les applications gérées.
+      url: "/workflows/workflows_before.html"
+  - title: Python
+    links:
+    - title: Avant de commencer
+      summary: Préparez-vous à exécuter les exemples de scripts Python.
+      url: "/python/python_before.html"
+    - title: Répertorier les applications gérées
+      summary: Exécutez un exemple de script pour afficher la liste des applications
+        gérées.
+      url: "/python/py_list_man_apps.html"
